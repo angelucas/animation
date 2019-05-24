@@ -61,7 +61,7 @@ The animation @keyframes for the button that we'll use is the opacity 0 to 1. Ma
     100% {opacity: 1;}
 }
 ```
-### Well done ;D
+### Well done ;)
 ### Hope it could be usefull to somebody. 
 
 # Usefull links
