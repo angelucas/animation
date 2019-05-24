@@ -97,6 +97,3 @@ And set some nice attributes to let our button with a better look.
     margin-top: 40px;
 }
 ```
-
-# Usefull links
-- animate.css - https://daneden.github.io/animate.css/
