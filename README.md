@@ -36,7 +36,7 @@ It's a title, introduction text and button animation.
             Recusandae totam laboriosam aut? Laboriosam impedit cum non earum numquam beatae, 
             maiores quod eaque placeat reprehenderit nesciunt illo voluptas vitae ut harum?
         </div>
-        <a href="javascript:history.go(0)" class="btn">README</a>
+        <a href="javascript:history.go(0)" class="btn">Read More</a>
     </body>
 </html>
 ```
@@ -100,7 +100,7 @@ body {
     transition-duration: 1s;
 }
 .btn:hover {
-    transition: rotateY(180deg);
+    transform: rotateY(180deg);
 }
 @keyframes btn {
     0%   {opacity: 0}
