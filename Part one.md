@@ -9,7 +9,8 @@ It's a title, introduction text and button animation.
 - index.html
 - css
   - landing.css
-#### HTML
+## HTML
+This is the html body that we're going to use for this example.
 ```html
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -40,7 +41,9 @@ It's a title, introduction text and button animation.
     </body>
 </html>
 ```
-### CSS
+# CSS
+## First
+We're going to reset the all margins and paddings. Add a font, background-color, text-color, line-height and text-align to center.
 ```css
 * {
     margin: 0;
@@ -53,36 +56,38 @@ body {
     line-height: 1.6;
     text-align: center;
 }
+```
+We're going to define the attributes to the class called "container" that we have already created, with the max-width that we want, margin and padding.
+```css
 .container {
     max-width: 960px;
     margin: auto;
     padding: 0 30px;
 }
+```
+## Second part
+Now, we're gonna to set the height to our "showcase" ID from the main content.
+```css
 #showcase {
     height: 300px;
 }
+```
+Add some attributes to our "h1 title".
+```css
 #showcase h1 {
     font-size: 50px;
     line-height: 1.3;
     position: relative;
-    animation: heading;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
 }
-@keyframes heading {
-    0% {top: -50px}
-    100% {top: 200px}
-}
+```
+Set ID="content" to "relative".
+```css
 #content {
     position: relative;
-    animation-name: content;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
 }
-@keyframes content {
-    0%   {left: -1000px}
-    100% {left: 0;}
-}
+```
+And set some nice attributes to let our button with a better look.
+```css
 .btn {
     display: inline-block;
     color: #fff;
@@ -90,21 +95,6 @@ body {
     padding: 1rem 2rem;
     border: #fff 1px solid;
     margin-top: 40px;
-    opacity: 0;
-    animation-name: btn;
-    animation-duration: 3s;
-    animation-delay: 3s;
-    animation-fill-mode: forwards;
-
-    transition-property: transform;
-    transition-duration: 1s;
-}
-.btn:hover {
-    transform: rotateY(180deg);
-}
-@keyframes btn {
-    0%   {opacity: 0}
-    100% {opacity: 1;}
 }
 ```
 
